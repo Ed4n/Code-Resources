@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: grey;
+    padding: 2%;
+    position: fixed;
+    z-index: 9999;
+    transition: all 0.4s ease-in-out;
+}
+
+h3 {
+    margin-left: 1%;
+    color: white;
+}
+
+main {
+    padding: 2% 15%;
+}
+
+
+
+/* scroll stuff // */
+.scroll-down nav {
+    transform: translateY(-100%);
+}
+
+.scroll-up nav {
+    opacity: 0.7;
+	filter: drop-shadow(0 -10px 20px rgb(61, 61, 61));
+	
+}
