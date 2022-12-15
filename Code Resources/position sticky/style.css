@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 9vh;
+    background: rgb(29, 29, 82);
+    color: wheat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1%;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+}
+
+main {
+    width: 100%;
+    /* background: grey; */
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: rgb(53, 53, 128);
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 9vh;
+    z-index: -1;
+}
+
+.content {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1; 
+}
+
+.content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: sticky;
+}
+
+.inner-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 200;
+    /* color:  rgb(53, 53, 128); */
+    color: white;
+    display: flex;
+   
+    font-size: 20px;
+     
+     /* padding: 5% 0; */
+     /* background: wheat; */
+   
+}
+
+.about {
+    width: 50%;
+   
+    margin-left: 200px;
+  
+    
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 12px;
+  
+}
+
+.quick-links {
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 70vh;
+font-size: 30px;
+font-weight: bold;
+color: white;
+
+}
+
+.left {
+height: 100%;
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+background: rgb(77, 77, 184);
+}
+
+
+
+.right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio {
+    display: flex;
+justify-content: center;
+align-items: center;
+background: rgb(190, 161, 105);
+height: 50%;
+
+}
+
+.team {
+    height: 50%;
+    display: flex;
+justify-content: center;
+align-items: center;
+background: rgb(233, 178, 68);
+
+}
+
+footer {
+   width: 100%;
+   height: 100vh;
+   font-size: 50px;
+   position: sticky;
+   bottom: 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: -1;
+   overflow: hidden;
+}
+
+footer img {
+    width: 100%;
+    height: 200%;
+    margin-top: 500px;
+    object-fit: cover;
+}
+
+.footer-content {
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
